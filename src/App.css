@@ -1,38 +1,71 @@
-.App {
+/* .App {
   text-align: center;
+} */
+
+.header{
+font-weight: 500;
+font-size: xx-large;
+border: 2px solid;
+background-color: #8E0625;
+color: white;
+text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-header{
+  margin-left: 12px;
+  margin-left: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.add-contact{
+  font-size: x-large;
+ font-weight: 500;
+font-family: fantasy;
+margin-top: 10px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form{
+  margin-top: 15px;
+  
+}
+label{
+  font-size: 20px;
+}
+input{
+  width: 250px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.btn{
+  border-color: cadetblue;
+  color: darkred;
+  margin-top: 20px;
+  margin-left: 140px;
+  width: 100px;
+  height: 30px;
+}
+
+.contact-header{
+  font-size: medium;
+font-weight: 500;
+font-family: system-ui;
+margin-left: 50px;
+margin-top: 20px;
+}
+
+.contacts{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+justify-content: space-between;
+border: 2px solid;
+background: #FDEFF2;
+margin-bottom: 2px;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 20px;
+align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .email{
+  font-size: x-small;
+} */
